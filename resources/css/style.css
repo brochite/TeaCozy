@@ -1,0 +1,155 @@
+/* Universal Styles */
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 15px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+  padding: 10px;
+}
+
+h4 {
+  font-size: .9em;
+  padding: 10px;
+}
+
+h5 {
+  font-size: 0.75em;
+  padding: 15px;
+  /*margin-bottom: 1.5em;*/
+}
+
+/* Header */
+/* Nav */
+
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  z-index: 10;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+header a {
+  color: seashell;
+}
+
+/* Content */
+
+
+main {
+  padding-top: 70px;
+}
+
+section#mission {
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url("../../resources/img/img-mission-background.jpg");
+  display: flex;
+  align-items: center;
+}
+
+#mission hgroup {
+  background-color: black;
+  width: 100%;
+}
+
+section#store {
+  width: 1050px;
+  height: 730px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  margin: 0 25px;
+  /*padding: 20px 0;*/
+}
+
+.item img {
+  display: block;
+  padding-top: 10px;
+  width: 300px;
+}
+
+section#locations {
+  display: flex;
+  flex-direction: column;
+  height: 430px;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 70px;
+  background-image: url("../../resources/img/img-locations-background.jpg");
+}
+
+.locations-container {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  width: 300px;
+  margin: 0 20px;
+  background-color: black;
+  padding: 15px 0;
+  opacity: 1;
+}
+
+/*There needs to be a tiny bit more space between the image and the description text*/
+.item h4 {
+  padding-top: 15px;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Footer */
+
+footer address {
+  height: 200px;
+}
+
+footer small {
+  display: block;
+  font-size: 1em;
+  text-align: left;
+  padding-left: 20px;
+}
